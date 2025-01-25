@@ -39,31 +39,10 @@ public class Display {
 	private static JSObject fullscreenQuery = null;
 	
 	private static boolean isWindowActive = true;
-	
-	static EventListener<Event> resizeEvent = new EventListener<Event>() {
-		@Override
-		public void handleEvent(Event evt) {
-			windowResized = true;
-		}
-	};
-	static EventListener<Event> blurEvent = new EventListener<Event>() {
-		@Override
-		public void handleEvent(Event evt) {
-			isWindowActive = false;
-		}
-	};
-	static EventListener<Event> focusEvent = new EventListener<Event>() {
-		@Override
-		public void handleEvent(Event evt) {
-			isWindowActive = true;
-		}
-	};
-	
+		
 	static {
 		fullscreenQuery = fullscreenMediaQuery();
-		WebGL.window.addEventListener("resize", resizeEvent);
-		WebGL.window.addEventListener("blue", blurEvent);
-		WebGL.window.addEventListener("focus", focusEvent);
+		
 	}
 	
 	private Display() {

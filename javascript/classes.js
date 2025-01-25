@@ -1210,9 +1210,9 @@
         case 0:
             cdmC_Client__clinit_();
             jl_Integer__clinit_();
-            nP_WebGL__clinit_();
             nPm_AssetRepository__clinit_();
             jl_Character__clinit_();
+            nP_WebGL__clinit_();
             cmmr_Textures__clinit_();
             cdmC_GLAllocation__clinit_();
             jl_Long__clinit_();
@@ -9023,9 +9023,6 @@
     var olo_Display_windowResizable = 0;
     var olo_Display_fullscreenQuery = null;
     var olo_Display_isWindowActive = 0;
-    var olo_Display_resizeEvent = null;
-    var olo_Display_blurEvent = null;
-    var olo_Display_focusEvent = null;
     function olo_Display_$callClinit() {
         olo_Display_$callClinit = $rt_eraseClinit(olo_Display);
         olo_Display__clinit_();
@@ -9220,7 +9217,6 @@
         return nP_WebGL_window.devicePixelRatio;
     }
     function olo_Display__clinit_() {
-        var var$1, var$2;
         olo_Display_currentMode = new olo_DisplayMode;
         olo_Display_width = 0;
         olo_Display_height = 0;
@@ -9231,19 +9227,7 @@
         olo_Display_windowResizable = 1;
         olo_Display_fullscreenQuery = null;
         olo_Display_isWindowActive = 1;
-        olo_Display_resizeEvent = new olo_Display$1;
-        olo_Display_blurEvent = new olo_Display$2;
-        olo_Display_focusEvent = new olo_Display$3;
         olo_Display_fullscreenQuery = $rt_globals.window.matchMedia('(display-mode: fullscreen)');
-        var$1 = nP_WebGL_window;
-        var$2 = olo_Display_resizeEvent;
-        var$1.addEventListener("resize", otji_JS_function(var$2, "handleEvent"));
-        var$1 = nP_WebGL_window;
-        var$2 = olo_Display_blurEvent;
-        var$1.addEventListener("blue", otji_JS_function(var$2, "handleEvent"));
-        var$1 = nP_WebGL_window;
-        var$2 = olo_Display_focusEvent;
-        var$1.addEventListener("focus", otji_JS_function(var$2, "handleEvent"));
     }
     function cmm_User() {
         var a = this; jl_Object.call(a);
@@ -13243,21 +13227,6 @@
     }
     function olo_DisplayMode_getHeight($this) {
         return olo_Display_getHeight();
-    }
-    var olo_Display$1 = $rt_classWithoutFields();
-    function olo_Display$1_handleEvent$exported$0(var$0, var$1) {
-        olo_Display_$callClinit();
-        olo_Display_windowResized = 1;
-    }
-    var olo_Display$2 = $rt_classWithoutFields();
-    function olo_Display$2_handleEvent$exported$0(var$0, var$1) {
-        olo_Display_$callClinit();
-        olo_Display_isWindowActive = 0;
-    }
-    var olo_Display$3 = $rt_classWithoutFields();
-    function olo_Display$3_handleEvent$exported$0(var$0, var$1) {
-        olo_Display_$callClinit();
-        olo_Display_isWindowActive = 1;
     }
     var jur_RandomGenerator = $rt_classWithoutFields(0);
     var ju_Random = $rt_classWithoutFields();
@@ -40896,9 +40865,6 @@
     otjc_JSFinalizationRegistry, 0, jl_Object, [otj_JSObject], 1, 3, 0, 0, 0,
     otji_JSWrapper$_clinit_$lambda$_30_1, 0, jl_Object, [otjc_JSFinalizationRegistryConsumer], 0, 3, 0, 0, ["$accept$exported$0", $rt_wrapFunction1(otji_JSWrapper$_clinit_$lambda$_30_1_accept$exported$0)],
     olo_DisplayMode, 0, jl_Object, [], 0, 3, 0, 0, 0,
-    olo_Display$1, 0, jl_Object, [otjde_EventListener], 0, 0, 0, 0, ["$handleEvent$exported$0", $rt_wrapFunction1(olo_Display$1_handleEvent$exported$0)],
-    olo_Display$2, 0, jl_Object, [otjde_EventListener], 0, 0, 0, 0, ["$handleEvent$exported$0", $rt_wrapFunction1(olo_Display$2_handleEvent$exported$0)],
-    olo_Display$3, 0, jl_Object, [otjde_EventListener], 0, 0, 0, 0, ["$handleEvent$exported$0", $rt_wrapFunction1(olo_Display$3_handleEvent$exported$0)],
     jur_RandomGenerator, 0, jl_Object, [], 3, 3, 0, 0, 0,
     ju_Random, 0, jl_Object, [jur_RandomGenerator, ji_Serializable], 0, 3, 0, 0, 0,
     cmmc_Cube, 0, jl_Object, [], 4, 3, 0, 0, 0,
@@ -40918,11 +40884,11 @@
     nPo_LWJGLMain$1, 0, jl_Object, [otja_ReadyStateChangeHandler], 0, 0, 0, 0, ["$stateChanged$exported$0", $rt_wrapFunction0(nPo_LWJGLMain$1_stateChanged$exported$0)],
     jnc_Charset$Charsets, 0, jl_Object, [], 0, 0, 0, jnc_Charset$Charsets_$callClinit, 0,
     jl_IllegalArgumentException, "IllegalArgumentException", 12, jl_RuntimeException, [], 0, 3, 0, 0, 0,
-    jnc_UnsupportedCharsetException, "UnsupportedCharsetException", 9, jl_IllegalArgumentException, [], 0, 3, 0, 0, 0]);
-    $rt_metadata([jn_Buffer, 0, jl_Object, [], 1, 3, 0, 0, 0,
+    jnc_UnsupportedCharsetException, "UnsupportedCharsetException", 9, jl_IllegalArgumentException, [], 0, 3, 0, 0, 0,
+    jn_Buffer, 0, jl_Object, [], 1, 3, 0, 0, 0,
     jn_ByteBuffer, 0, jn_Buffer, [jl_Comparable], 1, 3, 0, 0, 0,
-    jn_ByteOrder, 0, jl_Object, [], 4, 3, 0, jn_ByteOrder_$callClinit, 0,
-    otjb_Performance, 0, jl_Object, [otj_JSObject], 4, 3, 0, 0, 0,
+    jn_ByteOrder, 0, jl_Object, [], 4, 3, 0, jn_ByteOrder_$callClinit, 0]);
+    $rt_metadata([otjb_Performance, 0, jl_Object, [otj_JSObject], 4, 3, 0, 0, 0,
     jn_IntBuffer, 0, jn_Buffer, [jl_Comparable], 1, 3, 0, 0, 0,
     otji_EventHandler, 0, jl_Object, [otj_JSObject], 3, 3, 0, 0, 0,
     nPi_IndexedDBFilesystem$AsyncHandlers$1, 0, jl_Object, [otji_EventHandler], 0, 0, 0, 0, ["$handleEvent$exported$00", $rt_wrapFunction0(nPi_IndexedDBFilesystem$AsyncHandlers$1_handleEvent$exported$0)],
@@ -40970,11 +40936,11 @@
     jl_Thread$start$lambda$_4_0, 0, jl_Object, [otp_PlatformRunnable], 0, 3, 0, 0, ["$run", $rt_wrapFunction0(jl_Thread$start$lambda$_4_0_run)],
     ji_EOFException, "EOFException", 10, ji_IOException, [], 0, 3, 0, 0, 0,
     cmmc_Vertex, 0, jl_Object, [], 4, 3, 0, 0, 0,
-    cmmc_Polygon, 0, jl_Object, [], 4, 3, 0, 0, 0]);
-    $rt_metadata([cjj_Inflate, 0, jl_Object, [], 4, 0, 0, 0, 0,
+    cmmc_Polygon, 0, jl_Object, [], 4, 3, 0, 0, 0,
+    cjj_Inflate, 0, jl_Object, [], 4, 0, 0, 0, 0,
     ji_OutputStream, 0, jl_Object, [ji_Closeable, ji_Flushable], 1, 3, 0, 0, 0,
-    ji_FilterOutputStream, 0, ji_OutputStream, [], 0, 3, 0, 0, 0,
-    ji_PrintStream, 0, ji_FilterOutputStream, [], 0, 3, 0, 0, 0,
+    ji_FilterOutputStream, 0, ji_OutputStream, [], 0, 3, 0, 0, 0]);
+    $rt_metadata([ji_PrintStream, 0, ji_FilterOutputStream, [], 0, 3, 0, 0, 0,
     otcic_ConsoleOutputStream, 0, ji_OutputStream, [], 1, 3, 0, 0, 0,
     otcic_StderrOutputStream, 0, otcic_ConsoleOutputStream, [], 0, 3, 0, 0, ["$write0", $rt_wrapFunction3(otcic_StderrOutputStream_write)],
     cmmc_Vec3, 0, jl_Object, [], 4, 3, 0, 0, 0,
@@ -41020,11 +40986,11 @@
     jnc_CharsetEncoder, 0, jl_Object, [], 1, 3, 0, 0, 0,
     jnc_CoderResult, 0, jl_Object, [], 0, 3, 0, 0, 0,
     cjj_Inflate$Return, "Inflate$Return", 4, jl_Exception, [], 0, 0, 0, 0, 0,
-    cjj_GZIPHeader, 0, jl_Object, [jl_Cloneable], 0, 3, 0, 0, 0]);
-    $rt_metadata([cjj_CRC32, 0, jl_Object, [cjj_Checksum], 4, 3, 0, 0, ["$update1", $rt_wrapFunction3(cjj_CRC32_update), "$reset0", $rt_wrapFunction0(cjj_CRC32_reset), "$reset1", $rt_wrapFunction1(cjj_CRC32_reset0), "$getValue1", $rt_wrapFunction0(cjj_CRC32_getValue)],
+    cjj_GZIPHeader, 0, jl_Object, [jl_Cloneable], 0, 3, 0, 0, 0,
+    cjj_CRC32, 0, jl_Object, [cjj_Checksum], 4, 3, 0, 0, ["$update1", $rt_wrapFunction3(cjj_CRC32_update), "$reset0", $rt_wrapFunction0(cjj_CRC32_reset), "$reset1", $rt_wrapFunction1(cjj_CRC32_reset0), "$getValue1", $rt_wrapFunction0(cjj_CRC32_getValue)],
     oli_Keyboard, 0, jl_Object, [], 0, 3, 0, oli_Keyboard_$callClinit, 0,
-    oli_Mouse, 0, jl_Object, [], 0, 3, 0, 0, 0,
-    nlea_RealOpenGLEnums, 0, jl_Object, [], 0, 3, 0, 0, 0,
+    oli_Mouse, 0, jl_Object, [], 0, 3, 0, 0, 0]);
+    $rt_metadata([nlea_RealOpenGLEnums, 0, jl_Object, [], 0, 3, 0, 0, 0,
     olo_GL11, 0, nlea_RealOpenGLEnums, [], 0, 3, 0, olo_GL11_$callClinit, 0,
     cmmg_Font, 0, jl_Object, [], 4, 3, 0, 0, 0,
     cmmn_ConnectionManager, 0, jl_Object, [], 4, 3, 0, 0, 0,
@@ -41070,11 +41036,11 @@
     cmmg_ChatScreen, 0, cmmg_Screen, [], 4, 3, 0, 0, ["$init1", $rt_wrapFunction0(cmmg_ChatScreen_init), "$closeScreen", $rt_wrapFunction0(cmmg_ChatScreen_closeScreen), "$tick", $rt_wrapFunction0(cmmg_ChatScreen_tick), "$keyPressed", $rt_wrapFunction2(cmmg_ChatScreen_keyPressed), "$render1", $rt_wrapFunction2(cmmg_ChatScreen_render)],
     cmm_HitResult, 0, jl_Object, [], 4, 3, 0, 0, 0,
     cmc_SocketConnection, 0, jl_Object, [], 4, 3, 0, 0, 0,
-    cmmg_PauseScreen, 0, cmmg_Screen, [], 4, 3, 0, 0, ["$init1", $rt_wrapFunction0(cmmg_PauseScreen_init), "$buttonClicked", $rt_wrapFunction1(cmmg_PauseScreen_buttonClicked), "$render1", $rt_wrapFunction2(cmmg_PauseScreen_render)]]);
-    $rt_metadata([cmmr_Frustum, 0, jl_Object, [], 4, 3, 0, cmmr_Frustum_$callClinit, 0,
+    cmmg_PauseScreen, 0, cmmg_Screen, [], 4, 3, 0, 0, ["$init1", $rt_wrapFunction0(cmmg_PauseScreen_init), "$buttonClicked", $rt_wrapFunction1(cmmg_PauseScreen_buttonClicked), "$render1", $rt_wrapFunction2(cmmg_PauseScreen_render)],
+    cmmr_Frustum, 0, jl_Object, [], 4, 3, 0, cmmr_Frustum_$callClinit, 0,
     ju_SequencedSet, 0, jl_Object, [ju_SequencedCollection, ju_Set], 3, 3, 0, 0, 0,
-    ju_SortedSet, 0, jl_Object, [ju_Set, ju_SequencedSet], 3, 3, 0, 0, 0,
-    ju_NavigableSet, 0, jl_Object, [ju_SortedSet], 3, 3, 0, 0, 0,
+    ju_SortedSet, 0, jl_Object, [ju_Set, ju_SequencedSet], 3, 3, 0, 0, 0]);
+    $rt_metadata([ju_NavigableSet, 0, jl_Object, [ju_SortedSet], 3, 3, 0, 0, 0,
     ju_TreeSet, 0, ju_AbstractSet, [ju_NavigableSet], 0, 3, 0, 0, ["$add", $rt_wrapFunction1(ju_TreeSet_add)],
     cmmr_DirtyChunkSorter, 0, jl_Object, [ju_Comparator], 4, 3, 0, 0, ["$compare", $rt_wrapFunction2(cmmr_DirtyChunkSorter_compare)],
     ju_Objects, 0, jl_Object, [], 4, 3, 0, 0, 0,
@@ -41120,11 +41086,11 @@
     nP_StreamBuffer$IStreamBufferInitializer, 0, jl_Object, [], 3, 3, 0, 0, 0,
     nP_WebGLShader$_init_$lambda$_2_0, 0, jl_Object, [nP_StreamBuffer$IStreamBufferInitializer], 0, 3, 0, 0, 0,
     nP_RenderbufferGL, 0, jl_Object, [], 4, 3, 0, 0, 0,
-    nlea_EaglerAdapterImpl2$ShaderGL, 0, jl_Object, [], 4, 3, 0, 0, 0]);
-    $rt_metadata([nlea_EaglerAdapterImpl2$ProgramGL, 0, jl_Object, [], 4, 3, 0, 0, 0,
+    nlea_EaglerAdapterImpl2$ShaderGL, 0, jl_Object, [], 4, 3, 0, 0, 0,
+    nlea_EaglerAdapterImpl2$ProgramGL, 0, jl_Object, [], 4, 3, 0, 0, 0,
     nlea_EaglerAdapterImpl2$UniformGL, 0, jl_Object, [], 4, 3, 0, 0, 0,
-    otrf_VirtualFileSystem, 0, jl_Object, [], 3, 3, 0, 0, 0,
-    otrfm_InMemoryVirtualFileSystem, 0, jl_Object, [otrf_VirtualFileSystem], 0, 3, 0, 0, 0,
+    otrf_VirtualFileSystem, 0, jl_Object, [], 3, 3, 0, 0, 0]);
+    $rt_metadata([otrfm_InMemoryVirtualFileSystem, 0, jl_Object, [otrf_VirtualFileSystem], 0, 3, 0, 0, 0,
     nlea_EaglerAdapterImpl2, 0, jl_Object, [], 0, 3, 0, nlea_EaglerAdapterImpl2_$callClinit, 0,
     otrfm_AbstractInMemoryVirtualFile, 0, jl_Object, [], 1, 3, 0, 0, 0,
     otrfm_InMemoryVirtualDirectory, 0, otrfm_AbstractInMemoryVirtualFile, [], 0, 3, 0, 0, ["$isDirectory", $rt_wrapFunction0(otrfm_InMemoryVirtualDirectory_isDirectory), "$isFile", $rt_wrapFunction0(otrfm_InMemoryVirtualDirectory_isFile), "$getChildFile", $rt_wrapFunction1(otrfm_InMemoryVirtualDirectory_getChildFile), "$createAccessor", $rt_wrapFunction3(otrfm_InMemoryVirtualDirectory_createAccessor), "$createFile0", $rt_wrapFunction1(otrfm_InMemoryVirtualDirectory_createFile)],
@@ -41170,11 +41136,11 @@
     otcic_Console, 0, jl_Object, [], 4, 3, 0, 0, 0,
     ju_ListIterator, 0, jl_Object, [ju_Iterator], 3, 3, 0, 0, 0,
     ju_LinkedList$SequentialListIterator, 0, jl_Object, [ju_ListIterator], 0, 0, 0, 0, 0,
-    ju_LinkedList$Entry, 0, jl_Object, [], 0, 0, 0, 0, 0]);
-    $rt_metadata([ji_FileOutputStream, 0, ji_OutputStream, [], 0, 3, 0, 0, 0,
+    ju_LinkedList$Entry, 0, jl_Object, [], 0, 0, 0, 0, 0,
+    ji_FileOutputStream, 0, ji_OutputStream, [], 0, 3, 0, 0, 0,
     cmmn_NetworkPlayer, 0, cmm_Entity, [], 0, 3, 0, 0, 0,
-    jn_IntBufferOverByteBuffer, 0, jn_IntBufferImpl, [], 1, 0, 0, 0, ["$readOnly0", $rt_wrapFunction0(jn_IntBufferOverByteBuffer_readOnly)],
-    jn_IntBufferOverByteBufferLittleEndian, 0, jn_IntBufferOverByteBuffer, [], 0, 0, 0, 0, ["$getElement", $rt_wrapFunction1(jn_IntBufferOverByteBufferLittleEndian_getElement), "$putElement", $rt_wrapFunction2(jn_IntBufferOverByteBufferLittleEndian_putElement)],
+    jn_IntBufferOverByteBuffer, 0, jn_IntBufferImpl, [], 1, 0, 0, 0, ["$readOnly0", $rt_wrapFunction0(jn_IntBufferOverByteBuffer_readOnly)]]);
+    $rt_metadata([jn_IntBufferOverByteBufferLittleEndian, 0, jn_IntBufferOverByteBuffer, [], 0, 0, 0, 0, ["$getElement", $rt_wrapFunction1(jn_IntBufferOverByteBufferLittleEndian_getElement), "$putElement", $rt_wrapFunction2(jn_IntBufferOverByteBufferLittleEndian_putElement)],
     jn_IntBufferOverByteBufferBigEndian, 0, jn_IntBufferOverByteBuffer, [], 0, 0, 0, 0, ["$getElement", $rt_wrapFunction1(jn_IntBufferOverByteBufferBigEndian_getElement), "$putElement", $rt_wrapFunction2(jn_IntBufferOverByteBufferBigEndian_putElement)],
     cmmr_DistanceSorter, 0, jl_Object, [ju_Comparator], 4, 3, 0, 0, ["$compare", $rt_wrapFunction2(cmmr_DistanceSorter_compare)],
     jn_BufferOverflowException, "BufferOverflowException", 8, jl_RuntimeException, [], 0, 3, 0, 0, 0,
@@ -41220,11 +41186,11 @@
     ju_HashMap$ValueIterator, 0, ju_HashMap$AbstractMapIterator, [ju_Iterator], 0, 0, 0, 0, 0,
     cmml_Coord, 0, jl_Object, [], 4, 3, 0, 0, 0,
     ju_AbstractMap$KeySet$1, 0, jl_Object, [ju_Iterator], 0, 0, 0, 0, ["$hasNext", $rt_wrapFunction0(ju_AbstractMap$KeySet$1_hasNext), "$next0", $rt_wrapFunction0(ju_AbstractMap$KeySet$1_next)],
-    ju_HashMap$1, 0, ju_AbstractSet, [], 0, 0, 0, 0, ["$iterator", $rt_wrapFunction0(ju_HashMap$1_iterator)]]);
-    $rt_metadata([ju_AbstractMap$SimpleEntry, 0, jl_Object, [ju_Map$Entry, ji_Serializable], 0, 3, 0, 0, ["$getValue0", $rt_wrapFunction0(ju_AbstractMap$SimpleEntry_getValue), "$getKey", $rt_wrapFunction0(ju_AbstractMap$SimpleEntry_getKey), "$equals", $rt_wrapFunction1(ju_AbstractMap$SimpleEntry_equals), "$hashCode1", $rt_wrapFunction0(ju_AbstractMap$SimpleEntry_hashCode)],
+    ju_HashMap$1, 0, ju_AbstractSet, [], 0, 0, 0, 0, ["$iterator", $rt_wrapFunction0(ju_HashMap$1_iterator)],
+    ju_AbstractMap$SimpleEntry, 0, jl_Object, [ju_Map$Entry, ji_Serializable], 0, 3, 0, 0, ["$getValue0", $rt_wrapFunction0(ju_AbstractMap$SimpleEntry_getValue), "$getKey", $rt_wrapFunction0(ju_AbstractMap$SimpleEntry_getKey), "$equals", $rt_wrapFunction1(ju_AbstractMap$SimpleEntry_equals), "$hashCode1", $rt_wrapFunction0(ju_AbstractMap$SimpleEntry_hashCode)],
     ju_TreeMap$TreeNode, 0, ju_AbstractMap$SimpleEntry, [], 0, 0, 0, 0, 0,
-    jnc_BufferUnderflowException, "BufferUnderflowException", 9, jl_RuntimeException, [], 0, 3, 0, 0, 0,
-    jnc_BufferOverflowException, "BufferOverflowException", 9, jl_RuntimeException, [], 0, 3, 0, 0, 0,
+    jnc_BufferUnderflowException, "BufferUnderflowException", 9, jl_RuntimeException, [], 0, 3, 0, 0, 0]);
+    $rt_metadata([jnc_BufferOverflowException, "BufferOverflowException", 9, jl_RuntimeException, [], 0, 3, 0, 0, 0,
     jnc_MalformedInputException, "MalformedInputException", 9, jnc_CharacterCodingException, [], 0, 3, 0, 0, ["$getMessage", $rt_wrapFunction0(jnc_MalformedInputException_getMessage)],
     jnc_UnmappableCharacterException, "UnmappableCharacterException", 9, jnc_CharacterCodingException, [], 0, 3, 0, 0, ["$getMessage", $rt_wrapFunction0(jnc_UnmappableCharacterException_getMessage)],
     ju_HashMap$KeyIterator, 0, ju_HashMap$AbstractMapIterator, [ju_Iterator], 0, 0, 0, 0, ["$next0", $rt_wrapFunction0(ju_HashMap$KeyIterator_next)],
@@ -41270,11 +41236,11 @@
     jur_AtomicJointSet, 0, jur_NonCapJointSet, [], 0, 0, 0, 0, ["$matches", $rt_wrapFunction3(jur_AtomicJointSet_matches), "$setNext", $rt_wrapFunction1(jur_AtomicJointSet_setNext)],
     jur_PositiveLookAhead, 0, jur_AtomicJointSet, [], 0, 0, 0, 0, ["$matches", $rt_wrapFunction3(jur_PositiveLookAhead_matches), "$hasConsumed", $rt_wrapFunction1(jur_PositiveLookAhead_hasConsumed)],
     jur_NegativeLookAhead, 0, jur_AtomicJointSet, [], 0, 0, 0, 0, ["$matches", $rt_wrapFunction3(jur_NegativeLookAhead_matches), "$hasConsumed", $rt_wrapFunction1(jur_NegativeLookAhead_hasConsumed)],
-    jur_PositiveLookBehind, 0, jur_AtomicJointSet, [], 0, 0, 0, 0, ["$matches", $rt_wrapFunction3(jur_PositiveLookBehind_matches), "$hasConsumed", $rt_wrapFunction1(jur_PositiveLookBehind_hasConsumed)]]);
-    $rt_metadata([jur_NegativeLookBehind, 0, jur_AtomicJointSet, [], 0, 0, 0, 0, ["$matches", $rt_wrapFunction3(jur_NegativeLookBehind_matches), "$hasConsumed", $rt_wrapFunction1(jur_NegativeLookBehind_hasConsumed)],
+    jur_PositiveLookBehind, 0, jur_AtomicJointSet, [], 0, 0, 0, 0, ["$matches", $rt_wrapFunction3(jur_PositiveLookBehind_matches), "$hasConsumed", $rt_wrapFunction1(jur_PositiveLookBehind_hasConsumed)],
+    jur_NegativeLookBehind, 0, jur_AtomicJointSet, [], 0, 0, 0, 0, ["$matches", $rt_wrapFunction3(jur_NegativeLookBehind_matches), "$hasConsumed", $rt_wrapFunction1(jur_NegativeLookBehind_hasConsumed)],
     jur_SingleSet, 0, jur_JointSet, [], 0, 0, 0, 0, ["$matches", $rt_wrapFunction3(jur_SingleSet_matches), "$find0", $rt_wrapFunction3(jur_SingleSet_find), "$findBack", $rt_wrapFunction4(jur_SingleSet_findBack), "$first0", $rt_wrapFunction1(jur_SingleSet_first), "$processBackRefReplacement", $rt_wrapFunction0(jur_SingleSet_processBackRefReplacement), "$processSecondPass", $rt_wrapFunction0(jur_SingleSet_processSecondPass)],
-    jur_SpecialToken, 0, jl_Object, [], 1, 0, 0, 0, 0,
-    jur_AbstractCharClass, 0, jur_SpecialToken, [], 1, 0, 0, jur_AbstractCharClass_$callClinit, ["$getBits", $rt_wrapFunction0(jur_AbstractCharClass_getBits), "$getLowHighSurrogates", $rt_wrapFunction0(jur_AbstractCharClass_getLowHighSurrogates), "$getInstance1", $rt_wrapFunction0(jur_AbstractCharClass_getInstance), "$hasUCI", $rt_wrapFunction0(jur_AbstractCharClass_hasUCI)],
+    jur_SpecialToken, 0, jl_Object, [], 1, 0, 0, 0, 0]);
+    $rt_metadata([jur_AbstractCharClass, 0, jur_SpecialToken, [], 1, 0, 0, jur_AbstractCharClass_$callClinit, ["$getBits", $rt_wrapFunction0(jur_AbstractCharClass_getBits), "$getLowHighSurrogates", $rt_wrapFunction0(jur_AbstractCharClass_getLowHighSurrogates), "$getInstance1", $rt_wrapFunction0(jur_AbstractCharClass_getInstance), "$hasUCI", $rt_wrapFunction0(jur_AbstractCharClass_hasUCI)],
     jur_CharClass, "CharClass", 7, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$contains0", $rt_wrapFunction1(jur_CharClass_contains), "$getBits", $rt_wrapFunction0(jur_CharClass_getBits), "$getLowHighSurrogates", $rt_wrapFunction0(jur_CharClass_getLowHighSurrogates), "$getInstance1", $rt_wrapFunction0(jur_CharClass_getInstance), "$toString", $rt_wrapFunction0(jur_CharClass_toString), "$hasUCI", $rt_wrapFunction0(jur_CharClass_hasUCI)],
     ju_MissingResourceException, "MissingResourceException", 6, jl_RuntimeException, [], 0, 3, 0, 0, 0,
     jur_QuantifierSet, 0, jur_AbstractSet, [], 1, 0, 0, 0, ["$first0", $rt_wrapFunction1(jur_QuantifierSet_first), "$hasConsumed", $rt_wrapFunction1(jur_QuantifierSet_hasConsumed), "$processSecondPass", $rt_wrapFunction0(jur_QuantifierSet_processSecondPass)],
@@ -41320,11 +41286,11 @@
     jur_ReluctantCompositeQuantifierSet, 0, jur_CompositeQuantifierSet, [], 0, 0, 0, 0, ["$matches", $rt_wrapFunction3(jur_ReluctantCompositeQuantifierSet_matches)],
     jur_SOLSet, 0, jur_AbstractSet, [], 4, 0, 0, 0, ["$matches", $rt_wrapFunction3(jur_SOLSet_matches), "$hasConsumed", $rt_wrapFunction1(jur_SOLSet_hasConsumed)],
     jur_WordBoundary, 0, jur_AbstractSet, [], 0, 0, 0, 0, ["$matches", $rt_wrapFunction3(jur_WordBoundary_matches), "$hasConsumed", $rt_wrapFunction1(jur_WordBoundary_hasConsumed)],
-    jur_PreviousMatch, 0, jur_AbstractSet, [], 0, 0, 0, 0, ["$matches", $rt_wrapFunction3(jur_PreviousMatch_matches), "$hasConsumed", $rt_wrapFunction1(jur_PreviousMatch_hasConsumed)]]);
-    $rt_metadata([jur_EOLSet, 0, jur_AbstractSet, [], 4, 0, 0, 0, ["$matches", $rt_wrapFunction3(jur_EOLSet_matches), "$hasConsumed", $rt_wrapFunction1(jur_EOLSet_hasConsumed)],
+    jur_PreviousMatch, 0, jur_AbstractSet, [], 0, 0, 0, 0, ["$matches", $rt_wrapFunction3(jur_PreviousMatch_matches), "$hasConsumed", $rt_wrapFunction1(jur_PreviousMatch_hasConsumed)],
+    jur_EOLSet, 0, jur_AbstractSet, [], 4, 0, 0, 0, ["$matches", $rt_wrapFunction3(jur_EOLSet_matches), "$hasConsumed", $rt_wrapFunction1(jur_EOLSet_hasConsumed)],
     jur_EOISet, 0, jur_AbstractSet, [], 0, 0, 0, 0, ["$matches", $rt_wrapFunction3(jur_EOISet_matches), "$hasConsumed", $rt_wrapFunction1(jur_EOISet_hasConsumed)],
-    jur_MultiLineSOLSet, 0, jur_AbstractSet, [], 0, 0, 0, 0, ["$matches", $rt_wrapFunction3(jur_MultiLineSOLSet_matches), "$hasConsumed", $rt_wrapFunction1(jur_MultiLineSOLSet_hasConsumed)],
-    jur_DotAllSet, 0, jur_JointSet, [], 0, 0, 0, 0, ["$matches", $rt_wrapFunction3(jur_DotAllSet_matches), "$setNext", $rt_wrapFunction1(jur_DotAllSet_setNext), "$getType0", $rt_wrapFunction0(jur_DotAllSet_getType), "$hasConsumed", $rt_wrapFunction1(jur_DotAllSet_hasConsumed)],
+    jur_MultiLineSOLSet, 0, jur_AbstractSet, [], 0, 0, 0, 0, ["$matches", $rt_wrapFunction3(jur_MultiLineSOLSet_matches), "$hasConsumed", $rt_wrapFunction1(jur_MultiLineSOLSet_hasConsumed)]]);
+    $rt_metadata([jur_DotAllSet, 0, jur_JointSet, [], 0, 0, 0, 0, ["$matches", $rt_wrapFunction3(jur_DotAllSet_matches), "$setNext", $rt_wrapFunction1(jur_DotAllSet_setNext), "$getType0", $rt_wrapFunction0(jur_DotAllSet_getType), "$hasConsumed", $rt_wrapFunction1(jur_DotAllSet_hasConsumed)],
     jur_DotSet, 0, jur_JointSet, [], 4, 0, 0, 0, ["$matches", $rt_wrapFunction3(jur_DotSet_matches), "$setNext", $rt_wrapFunction1(jur_DotSet_setNext), "$getType0", $rt_wrapFunction0(jur_DotSet_getType), "$hasConsumed", $rt_wrapFunction1(jur_DotSet_hasConsumed)],
     jur_UEOLSet, 0, jur_AbstractSet, [], 4, 0, 0, 0, ["$matches", $rt_wrapFunction3(jur_UEOLSet_matches), "$hasConsumed", $rt_wrapFunction1(jur_UEOLSet_hasConsumed)],
     jur_UMultiLineEOLSet, 0, jur_AbstractSet, [], 0, 0, 0, 0, ["$matches", $rt_wrapFunction3(jur_UMultiLineEOLSet_matches), "$hasConsumed", $rt_wrapFunction1(jur_UMultiLineEOLSet_hasConsumed)],
@@ -41370,11 +41336,11 @@
     jur_AbstractCharClass$LazyJavaLetter, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaLetter_computeValue)],
     jur_AbstractCharClass$LazyJavaLetterOrDigit, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaLetterOrDigit_computeValue)],
     jur_AbstractCharClass$LazyJavaSpaceChar, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaSpaceChar_computeValue)],
-    jur_AbstractCharClass$LazyJavaTitleCase, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaTitleCase_computeValue)]]);
-    $rt_metadata([jur_AbstractCharClass$LazyJavaUnicodeIdentifierPart, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaUnicodeIdentifierPart_computeValue)],
+    jur_AbstractCharClass$LazyJavaTitleCase, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaTitleCase_computeValue)],
+    jur_AbstractCharClass$LazyJavaUnicodeIdentifierPart, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaUnicodeIdentifierPart_computeValue)],
     jur_AbstractCharClass$LazyJavaUnicodeIdentifierStart, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyJavaUnicodeIdentifierStart_computeValue)],
-    jur_AbstractCharClass$LazyWord, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyWord_computeValue)],
-    jur_AbstractCharClass$LazyNonWord, 0, jur_AbstractCharClass$LazyWord, [], 0, 0, 0, 0, ["$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyNonWord_computeValue)],
+    jur_AbstractCharClass$LazyWord, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyWord_computeValue)]]);
+    $rt_metadata([jur_AbstractCharClass$LazyNonWord, 0, jur_AbstractCharClass$LazyWord, [], 0, 0, 0, 0, ["$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyNonWord_computeValue)],
     jur_AbstractCharClass$LazyNonSpace, 0, jur_AbstractCharClass$LazySpace, [], 0, 0, 0, 0, ["$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyNonSpace_computeValue)],
     jur_AbstractCharClass$LazyNonDigit, 0, jur_AbstractCharClass$LazyDigit, [], 0, 0, 0, 0, ["$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyNonDigit_computeValue)],
     jur_AbstractCharClass$LazyRange, 0, jur_AbstractCharClass$LazyCharClass, [], 0, 0, 0, 0, ["$computeValue", $rt_wrapFunction0(jur_AbstractCharClass$LazyRange_computeValue)],
@@ -41420,11 +41386,11 @@
     jur_AbstractCharClass$LazyJavaLetter$1, "AbstractCharClass$LazyJavaLetter$1", 7, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$contains0", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaLetter$1_contains)],
     jur_AbstractCharClass$LazyJavaLetterOrDigit$1, "AbstractCharClass$LazyJavaLetterOrDigit$1", 7, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$contains0", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaLetterOrDigit$1_contains)],
     jur_AbstractCharClass$LazyJavaSpaceChar$1, "AbstractCharClass$LazyJavaSpaceChar$1", 7, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$contains0", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaSpaceChar$1_contains)],
-    jur_AbstractCharClass$LazyJavaTitleCase$1, "AbstractCharClass$LazyJavaTitleCase$1", 7, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$contains0", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaTitleCase$1_contains)]]);
-    $rt_metadata([jur_AbstractCharClass$LazyJavaUnicodeIdentifierPart$1, "AbstractCharClass$LazyJavaUnicodeIdentifierPart$1", 7, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$contains0", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaUnicodeIdentifierPart$1_contains)],
+    jur_AbstractCharClass$LazyJavaTitleCase$1, "AbstractCharClass$LazyJavaTitleCase$1", 7, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$contains0", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaTitleCase$1_contains)],
+    jur_AbstractCharClass$LazyJavaUnicodeIdentifierPart$1, "AbstractCharClass$LazyJavaUnicodeIdentifierPart$1", 7, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$contains0", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaUnicodeIdentifierPart$1_contains)],
     jur_AbstractCharClass$LazyJavaUnicodeIdentifierStart$1, "AbstractCharClass$LazyJavaUnicodeIdentifierStart$1", 7, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$contains0", $rt_wrapFunction1(jur_AbstractCharClass$LazyJavaUnicodeIdentifierStart$1_contains)],
-    jur_UnicodeCategory, "UnicodeCategory", 7, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$contains0", $rt_wrapFunction1(jur_UnicodeCategory_contains)],
-    jur_UnicodeCategoryScope, "UnicodeCategoryScope", 7, jur_UnicodeCategory, [], 0, 0, 0, 0, ["$contains0", $rt_wrapFunction1(jur_UnicodeCategoryScope_contains)],
+    jur_UnicodeCategory, "UnicodeCategory", 7, jur_AbstractCharClass, [], 0, 0, 0, 0, ["$contains0", $rt_wrapFunction1(jur_UnicodeCategory_contains)]]);
+    $rt_metadata([jur_UnicodeCategoryScope, "UnicodeCategoryScope", 7, jur_UnicodeCategory, [], 0, 0, 0, 0, ["$contains0", $rt_wrapFunction1(jur_UnicodeCategoryScope_contains)],
     ju_Collections, 0, jl_Object, [], 0, 3, 0, 0, 0,
     ju_Collections$13, 0, ju_AbstractMap, [], 0, 0, 0, 0, 0,
     ju_Collections$9, 0, ju_AbstractList, [], 0, 0, 0, 0, ["$get", $rt_wrapFunction1(ju_Collections$9_get), "$size0", $rt_wrapFunction0(ju_Collections$9_size)],
@@ -42284,15 +42250,6 @@
         c = otji_JSWrapper$_clinit_$lambda$_30_1.prototype;
         c[$rt_jso_marker] = true;
         c.accept = c.$accept$exported$0;
-        c = olo_Display$1.prototype;
-        c[$rt_jso_marker] = true;
-        c.handleEvent = c.$handleEvent$exported$0;
-        c = olo_Display$2.prototype;
-        c[$rt_jso_marker] = true;
-        c.handleEvent = c.$handleEvent$exported$0;
-        c = olo_Display$3.prototype;
-        c[$rt_jso_marker] = true;
-        c.handleEvent = c.$handleEvent$exported$0;
         c = otja_XMLHttpRequest.prototype;
         c.removeEventListener = c.$removeEventListener$exported$20;
         c.dispatchEvent = c.$dispatchEvent$exported$3;
