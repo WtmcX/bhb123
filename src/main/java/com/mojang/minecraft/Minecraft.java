@@ -1,5 +1,24 @@
 package com.mojang.minecraft;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.nio.ByteBuffer;
+import java.nio.FloatBuffer;
+import java.nio.IntBuffer;
+import java.util.Iterator;
+import java.util.TreeSet;
+
+import org.lwjgl.BufferUtils;
+import org.lwjgl.LWJGLException;
+import org.lwjgl.input.Controllers;
+import org.lwjgl.input.Keyboard;
+import org.lwjgl.input.Mouse;
+import org.lwjgl.opengl.Display;
+import org.lwjgl.opengl.GL11;
+import org.lwjgl.util.glu.GLU;
+
+import com.demez.minecraft.Client.KeyboardConstants;
 import com.mojang.comm.SocketConnection;
 import com.mojang.minecraft.character.Vec3;
 import com.mojang.minecraft.character.Zombie;
@@ -34,25 +53,8 @@ import com.mojang.minecraft.renderer.texture.TextureFX;
 import com.mojang.minecraft.renderer.texture.TextureLavaFX;
 import com.mojang.minecraft.renderer.texture.TextureWaterFX;
 
+import me.radmanplays.Util;
 import net.lax1dude.eaglercraft.adapter.RealOpenGLEnums;
-
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.nio.ByteBuffer;
-import java.nio.FloatBuffer;
-import java.nio.IntBuffer;
-import java.util.Iterator;
-import java.util.TreeSet;
-import org.lwjgl.BufferUtils;
-import org.lwjgl.LWJGLException;
-import org.lwjgl.input.Controllers;
-import org.lwjgl.input.Keyboard;
-import org.lwjgl.input.Mouse;
-import org.lwjgl.opengl.Display;
-import org.lwjgl.opengl.DisplayMode;
-import org.lwjgl.opengl.GL11;
-import org.lwjgl.util.glu.GLU;
 
 public final class Minecraft implements Runnable {
 	private boolean fullscreen = false;
@@ -124,7 +126,7 @@ public final class Minecraft implements Runnable {
 				if(this.mouseGrabbed) {
 					this.player.releaseAllKeys();
 					this.mouseGrabbed = false;
-					Mouse.setGrabbed(false);
+					Mouse.setNativeCursor(false);
 				}
 
 				int var2 = this.width * 240 / this.height;
@@ -158,9 +160,6 @@ public final class Minecraft implements Runnable {
 			}
 		}
 
-		Mouse.destroy();
-		Keyboard.destroy();
-		Display.destroy();
 	}
 
 	public final void run() {
@@ -172,32 +171,18 @@ public final class Minecraft implements Runnable {
 			this.fogColor0.flip();
 			this.fogColor1.put(new float[]{(float)14 / 255.0F, (float)11 / 255.0F, (float)10 / 255.0F, 1.0F});
 			this.fogColor1.flip();
-			if(this.fullscreen) {
-				Display.setFullscreen(true);
-				this.width = Display.getDisplayMode().getWidth();
-				this.height = Display.getDisplayMode().getHeight();
-			} else {
-				Display.setDisplayMode(new DisplayMode(this.width, this.height));
-			}
+				this.width = Display.getWidth();
+				this.height = Display.getHeight();
+			
 
-			Display.setTitle("Minecraft 0.0.21a");
 
-			try {
-				Display.create();
-			} catch (LWJGLException var31) {
-				var31.printStackTrace();
 
-				try {
 					Thread.sleep(1000L);
-				} catch (InterruptedException var30) {
-				}
+				
 
-				Display.create();
-			}
+			
 
-			Keyboard.create();
-			Mouse.create();
-
+		
 			try {
 				Controllers.create();
 			} catch (Exception var29) {
@@ -207,7 +192,7 @@ public final class Minecraft implements Runnable {
 			checkGlError("Pre startup");
 			GL11.glEnable(RealOpenGLEnums.GL_TEXTURE_2D);
 			GL11.glShadeModel(RealOpenGLEnums.GL_SMOOTH);
-			GL11.glClearDepth(1.0D);
+			GL11.glClearDepth(1.0F);
 			GL11.glEnable(RealOpenGLEnums.GL_DEPTH_TEST);
 			GL11.glDepthFunc(RealOpenGLEnums.GL_LEQUAL);
 			GL11.glEnable(RealOpenGLEnums.GL_ALPHA_TEST);
@@ -264,6 +249,7 @@ public final class Minecraft implements Runnable {
 			checkGlError("Post startup");
 			this.hud = new InGameHud(this, this.width, this.height);
 		} catch (Exception var36) {
+			Util.alert(var36.toString(), "Failed to start Minecraft");
 			var36.printStackTrace();
 			return;
 		}
@@ -276,9 +262,7 @@ public final class Minecraft implements Runnable {
 				if(this.pause) {
 					Thread.sleep(100L);
 				} else {
-					if(Display.isCloseRequested()) {
-						this.running = false;
-					}
+					
 
 					try {
 						Timer var37 = this.timer;
@@ -398,17 +382,10 @@ public final class Minecraft implements Runnable {
 		}
 
 	}
-
 	public final void grabMouse() {
 		if(!this.mouseGrabbed) {
 			this.mouseGrabbed = true;
-			if(this.appletMode) {
-					Mouse.setCursorPosition(this.width / 2, this.height / 2);
-				
-			} else {
-				Mouse.setGrabbed(true);
-			}
-
+			Mouse.setNativeCursor(true);
 			this.setScreen((Screen)null);
 			this.prevFrameTime = this.ticksRan + 10000;
 		}
@@ -564,29 +541,29 @@ public final class Minecraft implements Runnable {
 							}
 
 							if(this.screen == null) {
-								if(Keyboard.getEventKey() == Keyboard.KEY_ESCAPE) {
+								if(Keyboard.getEventKey() == KeyboardConstants.KEY_ESCAPE) {
 									this.pauseGame();
 								}
 
-								if(Keyboard.getEventKey() == Keyboard.KEY_R) {
+								if(Keyboard.getEventKey() == KeyboardConstants.KEY_R) {
 									this.player.resetPos();
 								}
 
-								if(Keyboard.getEventKey() == Keyboard.KEY_RETURN) {
+								if(Keyboard.getEventKey() == KeyboardConstants.KEY_RETURN) {
 									this.level.setSpawnPos((int)this.player.x, (int)this.player.y, (int)this.player.z, this.player.yRot);
 									this.player.resetPos();
 								}
 
-								if(Keyboard.getEventKey() == Keyboard.KEY_G && this.connectionManager == null && this.level.entities.size() < 256) {
+								if(Keyboard.getEventKey() == KeyboardConstants.KEY_G && this.connectionManager == null && this.level.entities.size() < 256) {
 									this.level.entities.add(new Zombie(this.level, this.player.x, this.player.y, this.player.z));
 								}
 
-								if(Keyboard.getEventKey() == Keyboard.KEY_B) {
+								if(Keyboard.getEventKey() == KeyboardConstants.KEY_B) {
 									this.setScreen(new InventoryScreen());
 								}
 
 
-								if(Keyboard.getEventKey() == Keyboard.KEY_T && this.connectionManager != null && this.connectionManager.isConnected()) {
+								if(Keyboard.getEventKey() == KeyboardConstants.KEY_T && this.connectionManager != null && this.connectionManager.isConnected()) {
 									this.player.releaseAllKeys();
 									this.setScreen(new ChatScreen());
 								}
@@ -598,13 +575,13 @@ public final class Minecraft implements Runnable {
 								}
 							}
 
-							if(Keyboard.getEventKey() == Keyboard.KEY_Y) {
+							if(Keyboard.getEventKey() == KeyboardConstants.KEY_Y) {
 								this.yMouseAxis = -this.yMouseAxis;
 							}
-						} while(Keyboard.getEventKey() != Keyboard.KEY_F);
+						} while(Keyboard.getEventKey() != KeyboardConstants.KEY_F);
 
 						LevelRenderer var10000 = this.levelRenderer;
-						boolean var20 = Keyboard.isKeyDown(Keyboard.KEY_LSHIFT) || Keyboard.isKeyDown(Keyboard.KEY_RSHIFT);
+						boolean var20 = Keyboard.isKeyDown(KeyboardConstants.KEY_LSHIFT) || Keyboard.isKeyDown(KeyboardConstants.KEY_RSHIFT);
 						var16 = var10000;
 						var16.drawDistance = var16.drawDistance + (var20 ? -1 : 1) & 3;
 					}

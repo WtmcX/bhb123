@@ -30,15 +30,15 @@ public final class SocketConnection {
 	}
 
 	public final void disconnect() {
-	
+		
 	}
 
 	public final void processData() throws IOException {
+		
 		
 	}
 
 	public Object read(Class var1) {
 		return var1;
-		
 	}
 }

@@ -12,7 +12,5 @@ final class NetworkSkinDownloadThread extends Thread {
 	}
 
 	public final void run() {
-		
-
 	}
 }

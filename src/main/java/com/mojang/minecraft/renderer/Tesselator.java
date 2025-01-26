@@ -1,8 +1,11 @@
 package com.mojang.minecraft.renderer;
 
 import java.nio.FloatBuffer;
+
 import org.lwjgl.BufferUtils;
 import org.lwjgl.opengl.GL11;
+
+import net.lax1dude.eaglercraft.adapter.RealOpenGLEnums;
 
 public final class Tesselator {
 	private FloatBuffer buffer = BufferUtils.createFloatBuffer(524288);
@@ -25,23 +28,24 @@ public final class Tesselator {
 			this.buffer.clear();
 			this.buffer.put(this.array, 0, this.p);
 			this.buffer.flip();
-//			if(this.hasTexture && this.hasColor) {
-//				GL11.glInterleavedArrays(GL11.GL_T2F_C3F_V3F, 0, (FloatBuffer)this.buffer);
-//			} else if(this.hasTexture) {
-//				GL11.glInterleavedArrays(GL11.GL_T2F_V3F, 0, (FloatBuffer)this.buffer);
-//			} else if(this.hasColor) {
-//				GL11.glInterleavedArrays(GL11.GL_C3F_V3F, 0, (FloatBuffer)this.buffer);
-//			} else {
-//				GL11.glInterleavedArrays(GL11.GL_V3F, 0, (FloatBuffer)this.buffer);
-//			}
-
-			GL11.glEnableClientState(GL11.GL_VERTEX_ARRAY);
-			if(this.hasTexture) {
-				GL11.glEnableClientState(GL11.GL_TEXTURE_COORD_ARRAY);
+			GL11.glEnableClientState(RealOpenGLEnums.GL_VERTEX_ARRAY);
+			if (this.hasTexture) {
+			    GL11.glEnableClientState(RealOpenGLEnums.GL_TEXTURE_COORD_ARRAY);
+			}
+			if (this.hasColor) {
+			    GL11.glEnableClientState(GL11.GL_COLOR_ARRAY);
 			}
 
-			if(this.hasColor) {
-				GL11.glEnableClientState(GL11.GL_COLOR_ARRAY);
+			// Çizim
+			GL11.glDrawArrays(GL11.GL_QUADS, 0, this.vertices);
+
+			// Durumları devre dışı bırak
+			GL11.glDisableClientState(GL11.GL_VERTEX_ARRAY);
+			if (this.hasTexture) {
+			    GL11.glDisableClientState(GL11.GL_TEXTURE_COORD_ARRAY);
+			}
+			if (this.hasColor) {
+			    GL11.glDisableClientState(GL11.GL_COLOR_ARRAY);
 			}
 
 			GL11.glDrawArrays(GL11.GL_QUADS, GL11.GL_POINTS, this.vertices);

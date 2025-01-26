@@ -1,5 +1,13 @@
 package com.mojang.minecraft.gui;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+import org.lwjgl.input.Keyboard;
+import org.lwjgl.opengl.GL11;
+
+import com.demez.minecraft.Client.KeyboardConstants;
 import com.mojang.minecraft.ChatLine;
 import com.mojang.minecraft.Minecraft;
 import com.mojang.minecraft.level.tile.Tile;
@@ -8,11 +16,6 @@ import com.mojang.minecraft.net.NetworkPlayer;
 import com.mojang.minecraft.player.Inventory;
 import com.mojang.minecraft.renderer.Tesselator;
 import com.mojang.minecraft.renderer.Textures;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import org.lwjgl.input.Keyboard;
-import org.lwjgl.opengl.GL11;
 
 public final class InGameHud {
 	public List messages = new ArrayList();
@@ -64,7 +67,7 @@ public final class InGameHud {
 			}
 		}
 
-		var1.drawShadow("c0.0.21a TeaVM port by radmanplays and EymenWSMC", 2, 2, 16777215);
+		var1.drawShadow("0.0.21a", 2, 2, 16777215);
 		var1.drawShadow(this.minecraft.fpsString, 2, 12, 16777215);
 		byte var17 = 10;
 		boolean var18 = false;
@@ -92,7 +95,7 @@ public final class InGameHud {
 		var3.vertex((float)(var7 - 4), (float)(var11 + 1), 0.0F);
 		var3.vertex((float)(var7 + 5), (float)(var11 + 1), 0.0F);
 		var3.end();
-		if(Keyboard.isKeyDown(Keyboard.KEY_TAB) && this.minecraft.connectionManager != null && this.minecraft.connectionManager.isConnected()) {
+		if(Keyboard.isKeyDown(KeyboardConstants.KEY_TAB) && this.minecraft.connectionManager != null && this.minecraft.connectionManager.isConnected()) {
 			ConnectionManager var8 = this.minecraft.connectionManager;
 			ArrayList var12 = new ArrayList();
 			var12.add(var8.minecraft.user.name);

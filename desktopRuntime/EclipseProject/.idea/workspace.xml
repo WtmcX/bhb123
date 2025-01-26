@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7e56f211-2f05-4695-823e-e5021a683fb6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javascript/classes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../javascript/classes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javascript/classes.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../javascript/classes.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javascript/classes.js.teavmdbg" beforeDir="false" afterPath="$PROJECT_DIR$/../../javascript/classes.js.teavmdbg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javascript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../javascript/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/lwjgl/java/com/demez/minecraft/Client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/lwjgl/java/com/demez/minecraft/Client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/lwjgl/java/me/radmanplays/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/lwjgl/java/me/radmanplays/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/lwjgl/java/net/lax1dude/eaglercraft/adapter/RealOpenGLEnums.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/lwjgl/java/net/lax1dude/eaglercraft/adapter/RealOpenGLEnums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/demez/minecraft/Client/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/demez/minecraft/Client/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/demez/minecraft/Client/Matrix4f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/demez/minecraft/Client/Matrix4f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/comm/SocketConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/comm/SocketConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/ChatLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/ChatLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/HitResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/HitResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/Minecraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/Minecraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/StopGameException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/StopGameException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/Timer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/Timer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/character/Cube.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/character/Cube.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/character/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/character/Polygon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/character/Vec3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/character/Vec3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/character/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/character/Vertex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/character/Zombie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/character/Zombie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/character/ZombieModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/character/ZombieModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/gui/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/gui/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/gui/ChatScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/gui/ChatScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/gui/ErrorScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/gui/ErrorScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/gui/Font.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/gui/Font.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/gui/InGameHud.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/gui/InGameHud.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/gui/InventoryScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/gui/InventoryScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/gui/LoadLevelScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/gui/LoadLevelScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/gui/NameLevelScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/gui/NameLevelScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/gui/NewLevelScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/gui/NewLevelScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/gui/PauseScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/gui/PauseScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/gui/SaveLevelScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/gui/SaveLevelScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/gui/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/gui/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/Coord.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/Coord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/Level.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/LevelIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/LevelIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/levelgen/LevelGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/levelgen/LevelGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/levelgen/synth/Distort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/levelgen/synth/Distort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/levelgen/synth/ImprovedNoise.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/levelgen/synth/ImprovedNoise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/levelgen/synth/PerlinNoise.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/levelgen/synth/PerlinNoise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/levelgen/synth/Synth.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/levelgen/synth/Synth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/liquid/Liquid.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/liquid/Liquid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/tile/Bush.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/tile/Bush.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/tile/CalmLiquidTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/tile/CalmLiquidTile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/tile/DirtTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/tile/DirtTile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/tile/FallingTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/tile/FallingTile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/tile/GlassTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/tile/GlassTile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/tile/GrassTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/tile/GrassTile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/tile/LeafTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/tile/LeafTile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/tile/LiquidTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/tile/LiquidTile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/tile/LogTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/tile/LogTile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/tile/SpongeTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/tile/SpongeTile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/tile/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/level/tile/Tile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/net/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/net/ConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/net/ConnectionThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/net/ConnectionThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/net/NetworkPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/net/NetworkPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/net/NetworkSkinDownloadThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/net/NetworkSkinDownloadThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/net/Packet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/net/Packet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/net/PlayerMove.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/net/PlayerMove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/particle/Particle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/particle/Particle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/particle/ParticleEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/particle/ParticleEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/phys/AABB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/phys/AABB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/player/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/player/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/player/MovementInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/player/MovementInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/player/MovementInputFromOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/player/MovementInputFromOptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/renderer/Chunk.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/renderer/Chunk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/renderer/DirtyChunkSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/renderer/DirtyChunkSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/renderer/DistanceSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/renderer/DistanceSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/renderer/Frustum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/renderer/Frustum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/renderer/LevelRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/renderer/LevelRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/renderer/Tesselator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/renderer/Tesselator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/renderer/Textures.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/renderer/Textures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/renderer/texture/TextureFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/renderer/texture/TextureFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/renderer/texture/TextureLavaFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/renderer/texture/TextureLavaFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/renderer/texture/TextureWaterFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/mojang/minecraft/renderer/texture/TextureWaterFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/me/radmanplays/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/me/radmanplays/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/me/radmanplays/lwjglkeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/me/radmanplays/lwjglkeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/me/radmanplays/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/me/radmanplays/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/me/radmanplays/MathHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/me/radmanplays/MathHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/me/radmanplays/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/me/radmanplays/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/BufferArrayGL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/BufferArrayGL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/BufferGL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/BufferGL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/FramebufferGL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/FramebufferGL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/GLEnums.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/GLEnums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/ProgramGL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/ProgramGL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/QueryGL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/QueryGL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/RenderbufferGL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/RenderbufferGL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/ShaderGL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/ShaderGL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/StreamBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/StreamBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/TextureGL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/TextureGL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/UniformGL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/UniformGL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/WebGL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/WebGL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/WebGL2RenderingContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/WebGL2RenderingContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/WebGLQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/WebGLQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/WebGLShader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/WebGLShader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/WebGLVertexArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/WebGLVertexArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/io/FileSystemUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/io/FileSystemUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/io/IDBObjectStorePatched.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/io/IDBObjectStorePatched.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/io/IndexedDBFilesystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/io/IndexedDBFilesystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/minecraft/AssetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/minecraft/AssetRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/minecraft/Base64.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/minecraft/Base64.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/minecraft/BaseNCodec.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/minecraft/BaseNCodec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/minecraft/GeneralDigest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/minecraft/GeneralDigest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/minecraft/SHA1Digest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/minecraft/SHA1Digest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/GLObjectMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/GLObjectMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/LWJGLMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/LWJGLMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/Matrix4f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/Matrix4f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/MinecraftImageData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/MinecraftImageData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/ReadableVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/ReadableVector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/ReadableVector2f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/ReadableVector2f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/ReadableVector3f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/ReadableVector3f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/ReadableVector4f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/ReadableVector4f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/RealOpenGLEmuns.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/RealOpenGLEmuns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/Vector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/Vector2f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/Vector2f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/Vector3f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/Vector3f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/Vector4f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/Vector4f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/WebGL2RenderingContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/WebGL2RenderingContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/WebGLQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/WebGLQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/WebGLVertexArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/WebGLVertexArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/WritableVector2f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/WritableVector2f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/WritableVector3f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/WritableVector3f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/WritableVector4f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/PeytonPlayz585/opengl/WritableVector4f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/AssetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/AssetRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/Base64.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/Base64.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/BaseNCodec.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/BaseNCodec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/EaglerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/EaglerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/EaglerInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/EaglerInputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/TestFilesystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/TestFilesystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/EaglerAdapterGL30.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/EaglerAdapterGL30.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/EaglerAdapterImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/EaglerAdapterImpl2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/GL11.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/GL11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/Matrix4f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/Matrix4f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/RealOpenGLEnums.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/RealOpenGLEnums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/Tessellator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/Tessellator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/Vector4f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/Vector4f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/teavm/IndexedDBFilesystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/teavm/IndexedDBFilesystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/teavm/WebGL2RenderingContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/teavm/WebGL2RenderingContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/teavm/WebGLQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/teavm/WebGLQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/teavm/WebGLVertexArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/teavm/WebGLVertexArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/vector/Matrix4f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/vector/Matrix4f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/vector/Vector2f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/vector/Vector2f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/vector/Vector3f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/vector/Vector3f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/vector/Vector4f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/net/lax1dude/eaglercraft/adapter/vector/Vector4f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/json/JSONArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/json/JSONArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/json/JSONException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/json/JSONException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/json/JSONObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/json/JSONObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/json/JSONParserConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/json/JSONParserConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/json/JSONPointer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/json/JSONPointer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/json/JSONPointerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/json/JSONPointerException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/json/JSONPropertyIgnore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/json/JSONPropertyIgnore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/json/JSONPropertyName.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/json/JSONPropertyName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/json/JSONString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/json/JSONString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/json/JSONStringer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/json/JSONStringer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/json/JSONTokener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/json/JSONTokener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/json/JSONWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/json/JSONWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/json/ParserConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/json/ParserConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/BufferChecks.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/BufferChecks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/BufferUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/BufferUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/LWJGLException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/LWJGLException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/LWJGLUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/LWJGLUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/PointerBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/PointerBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/PointerWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/PointerWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/PointerWrapperAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/PointerWrapperAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/Sys.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/Sys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/input/Controllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/input/Controllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/input/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/input/Keyboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/input/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/input/Mouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/Display.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/DisplayMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/DisplayMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL11.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL20.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL21.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL30.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL30.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL31.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL31.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL32.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL32.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL33.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL33.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL40.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL40.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL41.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL41.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL42.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL42.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL43.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL43.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL44.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL44.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL45.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/GL45.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/OpenGLException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/OpenGLException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/PixelFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/PixelFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/PixelFormatLWJGL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/PixelFormatLWJGL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/Sync.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/Sync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/opengl/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/Dimension.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/Dimension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/ReadableColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/ReadableColor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/ReadableDimension.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/ReadableDimension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/ReadablePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/ReadablePoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/ReadableRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/ReadableRectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/Renderable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/Renderable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/Timer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/Timer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/WritableColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/WritableColor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/WritableDimension.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/WritableDimension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/WritablePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/WritablePoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/WritableRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/WritableRectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/glu/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/glu/Cylinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/glu/Disk.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/glu/Disk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/glu/GLU.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/glu/GLU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/glu/MipMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/glu/MipMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/glu/PartialDisk.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/glu/PartialDisk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/glu/PixelStoreState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/glu/PixelStoreState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/glu/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/glu/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/glu/Quadric.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/glu/Quadric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/glu/Sphere.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/glu/Sphere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/glu/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/glu/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/Matrix2f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/Matrix2f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/Matrix3f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/Matrix3f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/Matrix4f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/Matrix4f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/Quaternion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/Quaternion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/ReadableVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/ReadableVector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/ReadableVector2f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/ReadableVector2f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/ReadableVector3f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/ReadableVector3f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/ReadableVector4f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/ReadableVector4f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/Vector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/Vector2f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/Vector2f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/Vector3f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/Vector3f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/Vector4f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/Vector4f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/WritableVector2f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/WritableVector2f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/WritableVector3f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/WritableVector3f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/WritableVector4f.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/teavm/java/org/lwjgl/util/vector/WritableVector4f.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;WtmcX&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/radmanplays/classic-0.0.21a.git&quot;,
+    &quot;accountId&quot;: &quot;956cbec7-a3ee-409a-b863-308a63dc2529&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2s6kcJgpTOmEAOLb6zsfLlzZYct" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Client.executor": "Run",
+    "Application.Unnamed.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Administartor/Desktop/astra-eagler-main/classicport/classic-0.0.21a",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15234375",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demez.minecraft.Client.Client" />
+      <module name="classic-0.0.21a" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=C:\Users\Administartor\Desktop\astra-eagler-main\classicport\classic-0.0.21a\desktopRuntime" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e56f211-2f05-4695-823e-e5021a683fb6" name="Changes" comment="" />
+      <created>1737783494581</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737783494581</updated>
+    </task>
+    <servers />
+  </component>
+</project>
